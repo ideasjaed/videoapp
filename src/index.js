@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HolaMundo from './components/practice/HolaMundo';
+import App from './containers/App';
 
-ReactDOM.render(<HolaMundo />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
